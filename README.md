@@ -2,9 +2,11 @@
 
 ## 使い方
 
-1. npm i
-2. npm run dev
-3. URL に #debug を追加してデバッグ GUI を表示
+1. git clone https://github.com/xMarKun/threejs-mustang-online.git
+2. cd threejs-mustang-online
+3. npm i
+4. npm run dev
+5. URL に #debug を追加してデバッグ GUI を表示
 
 ## 注意点
 
