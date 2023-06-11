@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mustang</title>
+  </head>
+  <body>
+    <canvas id="canvas"></canvas>
+    <div class="lcl-controller" id="ctrl">
+      <button class="lcl-controller__btn lcl-controller__forward" id="ctrl-forward"></button>
+      <button class="lcl-controller__btn lcl-controller__backward" id="ctrl-backward"></button>
+      <button class="lcl-controller__btn lcl-controller__right" id="ctrl-right"></button>
+      <button class="lcl-controller__btn lcl-controller__left" id="ctrl-left"></button>
+      <button class="lcl-controller__btn lcl-controller__klaxon" id="ctrl-klaxon"></button>
+      <button class="lcl-controller__btn lcl-controller__brake" id="ctrl-brake"></button>
+    </div>
+    <span class="lcl-status">
+      <span class="lcl-status__icon" id="status-icon"></span>
+      <span class="lcl-status__label" id="status-label">接続中...</span>
+    </span>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
